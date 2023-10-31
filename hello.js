@@ -3,17 +3,6 @@ alert("Hello, World!");
 // Prompt the user for their name and store it in the 'username' variable
 var username = prompt("What's your name?");
 
-// Create a friendly message with the user's name
-var message = "Hello, " + username + "! How are you feeling today?";
-
-// Display the message using the 'alert' function
-alert(message);
-
-// -----------------------
-
-// Prompt the user for their name and store it in the 'username' variable
-var username = prompt("What's your name?");
-
 // Prompt the user for their age and store it in the 'age' variable
 var age = parseFloat(prompt("How old are you?"));
 

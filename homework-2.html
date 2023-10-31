@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Moto</title>
+  </head>
+  <body>
+    <script>
+      // Function to prompt the user for their favorite phrase or motto
+      function getMotto() {
+        var motto = prompt("Please enter your favorite phrase or motto:");
+        return motto;
+      }
+
+      // Function to prompt the user for the number of times to display the motto
+      function getCount() {
+        var count = prompt("How many times would you like to see your motto?");
+        // Convert the user's input to a numeric value
+        return parseFloat(count);
+      }
+
+      // Function to display the motto 'count' times in the console
+      function printMotto(motto, count) {
+        for (var i = 0; i < count; i++) {
+          console.log(motto);
+        }
+      }
+
+      // Prompt the user for their motto and count
+      var userMotto = getMotto();
+      var userCount = getCount();
+
+      // Display the motto the specified number of times
+      if (!isNaN(userCount)) {
+        printMotto(userMotto, userCount);
+      } else {
+        console.log("Invalid input. Please enter a valid number.");
+      }
+    </script>
+  </body>
+</html>
