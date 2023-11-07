@@ -4,9 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="scripts.js"></script>
   </head>
   <body>
-    <p>Hello World!</p>
+    <h1 id="myHeading">My Heading</h1>
+    <h2 class="heading-2">My Heading</h2>
+    <p class="para-1">This is my paragraph.</p>
+    <p class="para-1">This is my paragraph.</p>
+    <p class="para-1">This is my paragraph.</p>
+    <div id="myDiv"></div>
+    <button id="myButton" onclick="changeColor()">Change Color</button>
+    <button id="myButton2" onclick="changeText(this)">Change Text</button>
+    <button onclick="displayDate()">Display Date</button>
+    <button id="myTime">Display Time</button>
+    <form name="ageForm" onsubmit="return myAge()">
+      <label for="age">Age</label>
+      <input type="text" name="age" id="age" />
+      <input type="submit" value="Submit" />
+    </form>
+    <script src="scripts.js"></script>
   </body>
 </html>
