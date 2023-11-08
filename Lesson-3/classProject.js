@@ -16,7 +16,7 @@ document
 
       const img = document.createElement("img");
       img.src = imageUrl.trim();
-      img.style.width = "600px";
+      img.style.width = "601px";
 
       const deleteButton = document.createElement("button");
       deleteButton.textContent = "Delete";
