@@ -3,7 +3,7 @@ function addAttendee() {
 
   let ul = document.getElementById("attendees");
 
-  let li = document.createElement("LI");
+  let li = document.createElement("li");
   li.appendChild(document.createTextNode(name));
   ul.appendChild(li);
 }
